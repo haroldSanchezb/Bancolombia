@@ -1,0 +1,19 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+  "name": "Sucursal Virtual",
+  "description": " Sucursal Virtual Personas Bancolombia.",
+  "version": "1.0.1",
+  "icons": {
+    "128": "128.png",
+      "16": "16.png",
+      "24": "24.png",
+      "32": "32.png",
+      "48": "48.png"
+  },
+  "permissions": [ "http://*/", "https://*/" ,"unlimited_storage", "tabs"],
+  "app": {
+    "launch": {
+      "local_path": "index.html"
+    }
+  }
+}
